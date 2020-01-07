@@ -13,8 +13,8 @@ name: OpenWrt-CI
     branches: 
       - master
           
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
     
 on:
   schedule:
